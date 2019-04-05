@@ -17,7 +17,7 @@ class SelectCountryViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Select Country"
+        self.title = "Select\nCountry"
         configureTableView()
         // show search bar instantly upon presentation
         navigationItem.hidesSearchBarWhenScrolling = false
@@ -28,7 +28,7 @@ class SelectCountryViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         // to make search field background white
         setSearchFieldBackgroundColor()
-        //resizeLargeTitleAndScroll()
+        resizeLargeTitleAndScroll()
         //configureRegularSizeNavigationBarLabel()
     }
     
