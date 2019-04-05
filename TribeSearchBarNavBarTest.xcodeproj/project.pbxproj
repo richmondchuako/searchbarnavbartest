@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7DB78082256F4840075FC63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DB78072256F4840075FC63 /* AppDelegate.swift */; };
+		D7DB780A2256F4840075FC63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DB78092256F4840075FC63 /* ViewController.swift */; };
+		D7DB780D2256F4840075FC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DB780B2256F4840075FC63 /* Main.storyboard */; };
+		D7DB780F2256F4850075FC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DB780E2256F4850075FC63 /* Assets.xcassets */; };
+		D7DB78122256F4860075FC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DB78102256F4860075FC63 /* LaunchScreen.storyboard */; };
+		D7DB781D2256F4860075FC63 /* TribeSearchBarNavBarTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DB781C2256F4860075FC63 /* TribeSearchBarNavBarTestTests.swift */; };
+		D7DB78282256F4860075FC63 /* TribeSearchBarNavBarTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DB78272256F4860075FC63 /* TribeSearchBarNavBarTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7DB78192256F4860075FC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7DB77FC2256F4840075FC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7DB78032256F4840075FC63;
+			remoteInfo = TribeSearchBarNavBarTest;
+		};
+		D7DB78242256F4860075FC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7DB77FC2256F4840075FC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7DB78032256F4840075FC63;
+			remoteInfo = TribeSearchBarNavBarTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7DB78042256F4840075FC63 /* TribeSearchBarNavBarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TribeSearchBarNavBarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DB78072256F4840075FC63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7DB78092256F4840075FC63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7DB780C2256F4840075FC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7DB780E2256F4850075FC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7DB78112256F4860075FC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7DB78132256F4860075FC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DB78182256F4860075FC63 /* TribeSearchBarNavBarTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TribeSearchBarNavBarTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DB781C2256F4860075FC63 /* TribeSearchBarNavBarTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TribeSearchBarNavBarTestTests.swift; sourceTree = "<group>"; };
+		D7DB781E2256F4860075FC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DB78232256F4860075FC63 /* TribeSearchBarNavBarTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TribeSearchBarNavBarTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DB78272256F4860075FC63 /* TribeSearchBarNavBarTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TribeSearchBarNavBarTestUITests.swift; sourceTree = "<group>"; };
+		D7DB78292256F4860075FC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7DB78012256F4840075FC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DB78152256F4860075FC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DB78202256F4860075FC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7DB77FB2256F4840075FC63 = {
+			isa = PBXGroup;
+			children = (
+				D7DB78062256F4840075FC63 /* TribeSearchBarNavBarTest */,
+				D7DB781B2256F4860075FC63 /* TribeSearchBarNavBarTestTests */,
+				D7DB78262256F4860075FC63 /* TribeSearchBarNavBarTestUITests */,
+				D7DB78052256F4840075FC63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7DB78052256F4840075FC63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7DB78042256F4840075FC63 /* TribeSearchBarNavBarTest.app */,
+				D7DB78182256F4860075FC63 /* TribeSearchBarNavBarTestTests.xctest */,
+				D7DB78232256F4860075FC63 /* TribeSearchBarNavBarTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7DB78062256F4840075FC63 /* TribeSearchBarNavBarTest */ = {
+			isa = PBXGroup;
+			children = (
+				D7DB78072256F4840075FC63 /* AppDelegate.swift */,
+				D7DB78092256F4840075FC63 /* ViewController.swift */,
+				D7DB780B2256F4840075FC63 /* Main.storyboard */,
+				D7DB780E2256F4850075FC63 /* Assets.xcassets */,
+				D7DB78102256F4860075FC63 /* LaunchScreen.storyboard */,
+				D7DB78132256F4860075FC63 /* Info.plist */,
+			);
+			path = TribeSearchBarNavBarTest;
+			sourceTree = "<group>";
+		};
+		D7DB781B2256F4860075FC63 /* TribeSearchBarNavBarTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7DB781C2256F4860075FC63 /* TribeSearchBarNavBarTestTests.swift */,
+				D7DB781E2256F4860075FC63 /* Info.plist */,
+			);
+			path = TribeSearchBarNavBarTestTests;
+			sourceTree = "<group>";
+		};
+		D7DB78262256F4860075FC63 /* TribeSearchBarNavBarTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7DB78272256F4860075FC63 /* TribeSearchBarNavBarTestUITests.swift */,
+				D7DB78292256F4860075FC63 /* Info.plist */,
+			);
+			path = TribeSearchBarNavBarTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7DB78032256F4840075FC63 /* TribeSearchBarNavBarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DB782C2256F4860075FC63 /* Build configuration list for PBXNativeTarget "TribeSearchBarNavBarTest" */;
+			buildPhases = (
+				D7DB78002256F4840075FC63 /* Sources */,
+				D7DB78012256F4840075FC63 /* Frameworks */,
+				D7DB78022256F4840075FC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TribeSearchBarNavBarTest;
+			productName = TribeSearchBarNavBarTest;
+			productReference = D7DB78042256F4840075FC63 /* TribeSearchBarNavBarTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7DB78172256F4860075FC63 /* TribeSearchBarNavBarTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DB782F2256F4860075FC63 /* Build configuration list for PBXNativeTarget "TribeSearchBarNavBarTestTests" */;
+			buildPhases = (
+				D7DB78142256F4860075FC63 /* Sources */,
+				D7DB78152256F4860075FC63 /* Frameworks */,
+				D7DB78162256F4860075FC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7DB781A2256F4860075FC63 /* PBXTargetDependency */,
+			);
+			name = TribeSearchBarNavBarTestTests;
+			productName = TribeSearchBarNavBarTestTests;
+			productReference = D7DB78182256F4860075FC63 /* TribeSearchBarNavBarTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7DB78222256F4860075FC63 /* TribeSearchBarNavBarTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DB78322256F4860075FC63 /* Build configuration list for PBXNativeTarget "TribeSearchBarNavBarTestUITests" */;
+			buildPhases = (
+				D7DB781F2256F4860075FC63 /* Sources */,
+				D7DB78202256F4860075FC63 /* Frameworks */,
+				D7DB78212256F4860075FC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7DB78252256F4860075FC63 /* PBXTargetDependency */,
+			);
+			name = TribeSearchBarNavBarTestUITests;
+			productName = TribeSearchBarNavBarTestUITests;
+			productReference = D7DB78232256F4860075FC63 /* TribeSearchBarNavBarTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7DB77FC2256F4840075FC63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Richmond Ko";
+				TargetAttributes = {
+					D7DB78032256F4840075FC63 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D7DB78172256F4860075FC63 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D7DB78032256F4840075FC63;
+					};
+					D7DB78222256F4860075FC63 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D7DB78032256F4840075FC63;
+					};
+				};
+			};
+			buildConfigurationList = D7DB77FF2256F4840075FC63 /* Build configuration list for PBXProject "TribeSearchBarNavBarTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7DB77FB2256F4840075FC63;
+			productRefGroup = D7DB78052256F4840075FC63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7DB78032256F4840075FC63 /* TribeSearchBarNavBarTest */,
+				D7DB78172256F4860075FC63 /* TribeSearchBarNavBarTestTests */,
+				D7DB78222256F4860075FC63 /* TribeSearchBarNavBarTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7DB78022256F4840075FC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DB78122256F4860075FC63 /* LaunchScreen.storyboard in Resources */,
+				D7DB780F2256F4850075FC63 /* Assets.xcassets in Resources */,
+				D7DB780D2256F4840075FC63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DB78162256F4860075FC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DB78212256F4860075FC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7DB78002256F4840075FC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DB780A2256F4840075FC63 /* ViewController.swift in Sources */,
+				D7DB78082256F4840075FC63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DB78142256F4860075FC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DB781D2256F4860075FC63 /* TribeSearchBarNavBarTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DB781F2256F4860075FC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DB78282256F4860075FC63 /* TribeSearchBarNavBarTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7DB781A2256F4860075FC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7DB78032256F4840075FC63 /* TribeSearchBarNavBarTest */;
+			targetProxy = D7DB78192256F4860075FC63 /* PBXContainerItemProxy */;
+		};
+		D7DB78252256F4860075FC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7DB78032256F4840075FC63 /* TribeSearchBarNavBarTest */;
+			targetProxy = D7DB78242256F4860075FC63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7DB780B2256F4840075FC63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7DB780C2256F4840075FC63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7DB78102256F4860075FC63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7DB78112256F4860075FC63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7DB782A2256F4860075FC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7DB782B2256F4860075FC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7DB782D2256F4860075FC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2S73V253D;
+				INFOPLIST_FILE = TribeSearchBarNavBarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Richmond-Ko.TribeSearchBarNavBarTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7DB782E2256F4860075FC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2S73V253D;
+				INFOPLIST_FILE = TribeSearchBarNavBarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Richmond-Ko.TribeSearchBarNavBarTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7DB78302256F4860075FC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2S73V253D;
+				INFOPLIST_FILE = TribeSearchBarNavBarTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Richmond-Ko.TribeSearchBarNavBarTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TribeSearchBarNavBarTest.app/TribeSearchBarNavBarTest";
+			};
+			name = Debug;
+		};
+		D7DB78312256F4860075FC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2S73V253D;
+				INFOPLIST_FILE = TribeSearchBarNavBarTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Richmond-Ko.TribeSearchBarNavBarTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TribeSearchBarNavBarTest.app/TribeSearchBarNavBarTest";
+			};
+			name = Release;
+		};
+		D7DB78332256F4860075FC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2S73V253D;
+				INFOPLIST_FILE = TribeSearchBarNavBarTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Richmond-Ko.TribeSearchBarNavBarTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TribeSearchBarNavBarTest;
+			};
+			name = Debug;
+		};
+		D7DB78342256F4860075FC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2S73V253D;
+				INFOPLIST_FILE = TribeSearchBarNavBarTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Richmond-Ko.TribeSearchBarNavBarTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TribeSearchBarNavBarTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7DB77FF2256F4840075FC63 /* Build configuration list for PBXProject "TribeSearchBarNavBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DB782A2256F4860075FC63 /* Debug */,
+				D7DB782B2256F4860075FC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7DB782C2256F4860075FC63 /* Build configuration list for PBXNativeTarget "TribeSearchBarNavBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DB782D2256F4860075FC63 /* Debug */,
+				D7DB782E2256F4860075FC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7DB782F2256F4860075FC63 /* Build configuration list for PBXNativeTarget "TribeSearchBarNavBarTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DB78302256F4860075FC63 /* Debug */,
+				D7DB78312256F4860075FC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7DB78322256F4860075FC63 /* Build configuration list for PBXNativeTarget "TribeSearchBarNavBarTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DB78332256F4860075FC63 /* Debug */,
+				D7DB78342256F4860075FC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7DB77FC2256F4840075FC63 /* Project object */;
+}
