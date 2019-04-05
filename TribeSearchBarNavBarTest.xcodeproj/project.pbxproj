@@ -14,6 +14,7 @@
 		D7DB78122256F4860075FC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DB78102256F4860075FC63 /* LaunchScreen.storyboard */; };
 		D7DB781D2256F4860075FC63 /* TribeSearchBarNavBarTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DB781C2256F4860075FC63 /* TribeSearchBarNavBarTestTests.swift */; };
 		D7DB78282256F4860075FC63 /* TribeSearchBarNavBarTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DB78272256F4860075FC63 /* TribeSearchBarNavBarTestUITests.swift */; };
+		D7DB78362256F66E0075FC63 /* SelectCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DB78352256F66E0075FC63 /* SelectCountryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D7DB78232256F4860075FC63 /* TribeSearchBarNavBarTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TribeSearchBarNavBarTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DB78272256F4860075FC63 /* TribeSearchBarNavBarTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TribeSearchBarNavBarTestUITests.swift; sourceTree = "<group>"; };
 		D7DB78292256F4860075FC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DB78352256F66E0075FC63 /* SelectCountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCountryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D7DB780E2256F4850075FC63 /* Assets.xcassets */,
 				D7DB78102256F4860075FC63 /* LaunchScreen.storyboard */,
 				D7DB78132256F4860075FC63 /* Info.plist */,
+				D7DB78352256F66E0075FC63 /* SelectCountryViewController.swift */,
 			);
 			path = TribeSearchBarNavBarTest;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7DB78362256F66E0075FC63 /* SelectCountryViewController.swift in Sources */,
 				D7DB780A2256F4840075FC63 /* ViewController.swift in Sources */,
 				D7DB78082256F4840075FC63 /* AppDelegate.swift in Sources */,
 			);
